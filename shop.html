@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Silex v3.9.0">
+<link rel="stylesheet" href="css/community.css">
+</head>
+<body class="page-com">
+<header class="oss-nav">
+  <div class="oss-container nav-inner">
+    <a href="index.html" class="oss-nav__logo">PowerSMP</a>
+    <input type="checkbox" id="nav-toggle" class="navbar__checkbox">
+    <nav class="navbar__menu">
+      <a href="shop.html" class="oss-nav__link current-com">Shop</a>
+      <a href="https://discord.pwxsmp.net" class="oss-nav__link">Discord</a>
+      <button type="button" class="oss-btn oss-btn--primary oss-btn--sm copy-ip">Copy IP</button>
+    </nav>
+    <label for="nav-toggle" class="navbar__toggle">☰</label>
+  </div>
+</header>
+
+<main>
+<section class="oss-hero">
+  <div class="oss-container">
+    <h1 class="oss-h1">PowerX Shop.</h1>
+    <p class="oss-body-lg oss-hero__subtitle">Support the server and check out what's available for the PowerX SMP community.</p>
+  </div>
+</section>
+
+<section class="oss-section">
+  <div class="oss-container">
+    <h2 class="oss-h2">Shop</h2>
+    <p class="oss-body-lg shop-intro">Shop items will appear here when they are available.</p>
+    <div class="oss-grid oss-grid--3">
+      <article class="oss-card shop-card"><div class="shop-icon">⭐</div><h3 class="oss-h4">Ranks</h3><p class="oss-body">Server ranks and perks will be listed here.</p><button class="oss-btn oss-btn--primary" type="button" disabled>Coming Soon</button></article>
+      <article class="oss-card shop-card"><div class="shop-icon">🎁</div><h3 class="oss-h4">Crates &amp; Keys</h3><p class="oss-body">Crates and keys will be listed here when available.</p><button class="oss-btn oss-btn--primary" type="button" disabled>Coming Soon</button></article>
+      <article class="oss-card shop-card"><div class="shop-icon">✨</div><h3 class="oss-h4">Cosmetics</h3><p class="oss-body">Cosmetic items will be listed here when available.</p><button class="oss-btn oss-btn--primary" type="button" disabled>Coming Soon</button></article>
+    </div>
+  </div>
+</section>
+
+<section class="oss-section oss-section--alt">
+  <div class="oss-container shop-note">
+    <h2 class="oss-h2">Need help?</h2>
+    <p class="oss-body-lg">Join the PowerX Discord if you have questions about the server or future shop items.</p>
+    <a href="https://discord.pwxsmp.net" class="oss-btn oss-btn--secondary oss-btn--lg">Join Discord</a>
+  </div>
+</section>
+</main>
+
+<footer class="oss-footer">
+  <div class="oss-container">
+    <div class="oss-footer__grid">
+      <div><h4 class="oss-footer__title">PowerX SMP</h4><p class="oss-footer__text">Built by a small team focused on creating a fun Minecraft community.</p></div>
+      <div><h4 class="oss-footer__title">Community</h4><a href="https://discord.pwxsmp.net" class="oss-footer__link">Discord</a><a href="#" class="oss-footer__link">Twitch</a></div>
+      <div><h4 class="oss-footer__title">Legal</h4><a href="#" class="oss-footer__link">Rules</a></div>
+    </div>
+  </div>
+  <div class="oss-footer__bottom"><p>© 2027 PowerX</p><p>All rights reserved.</p></div>
+</footer>
+
+<script>
+(() => {
+  const ip = 'mc.pwxsmp.net';
+  document.querySelectorAll('.copy-ip').forEach(button => {
+    button.addEventListener('click', async () => {
+      try { await navigator.clipboard.writeText(ip); }
+      catch {
+        const input = document.createElement('input');
+        input.value = ip; document.body.appendChild(input); input.select();
+        document.execCommand('copy'); input.remove();
+      }
+      const oldText = button.textContent;
+      button.textContent = 'Copied!';
+      setTimeout(() => button.textContent = oldText, 1400);
+    });
+  });
+})();
+</script>
+</body>
+</html>
