@@ -25,6 +25,10 @@ This project is for a Minecraft Server named PowerX SMP, It is a Paper/Spigot SM
 
 **Website/Repo Owner:** Roob (ineedroob)
 
+**Full-Stack CSS Dev:** Cucasy (on dsc)
+
+**UI Design/Creative Design:** rablier (on dsc)
+
 ---
 
 © 2027 PowerX. All rights reserved.
