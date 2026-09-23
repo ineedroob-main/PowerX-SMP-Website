@@ -27,7 +27,7 @@ This project is for a Minecraft Server named PowerX SMP, It is a Paper/Spigot SM
 
 **Hiring Team** Roob & J0NZa1
 
-**Full-Stack CSS Dev:** Cucasy (on dsc)
+**Main Dev:** Cucasy (on dsc)
 
 **UI Design/Creative Design:** rablier (on dsc)
 
