@@ -25,7 +25,7 @@ This project is for a Minecraft Server named PowerX SMP, It is a Paper/Spigot SM
 
 **Website/Repo Owner:** Roob (ineedroob)
 
-**Hiring Team** Roob & J0NZa1
+**Hiring Team:** Roob & J0NZa1
 
 **Main Dev:** Cucasy (on dsc)
 
