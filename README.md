@@ -3,7 +3,9 @@
 Official website for **PowerX SMP**.
 
 🌐 Website: pwxsmp.net
-🎮 Minecraft: `mc.pwxsmp.net`
+
+🎮 Minecraft IP: `mc.pwxsmp.net`
+
 💬 Discord: discord.pwxsmp.net
 
 ## About
