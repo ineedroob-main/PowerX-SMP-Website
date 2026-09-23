@@ -18,9 +18,9 @@ This project is for a Minecraft Server named PowerX SMP, It is a Paper/Spigot SM
 
 ## Credits
 
-**Owner:** PowerXEdits
+**Server Owner:** PowerXEdits  
 
-**Owner of Repo:** Roob (ineedroob)
+**Website/Repo Owner:** Roob (ineedroob)
 
 ---
 
